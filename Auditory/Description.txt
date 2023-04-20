@@ -1,0 +1,11 @@
+The Auditory folder contains data from two sessions that occurred in three days (S01, S02). Each contains a "CleanData" folder. "ERP", "PAC", "CleanData" and "Epoched data" are in it.
+
+"CleanData": results of preprocessing data by EEGLAB based on "Makoto's_preprocessing_pipeline". 
+
+8-channels EEG signals are filtered by band pass filter (1-70 Hz and fs =1000), then normalized based on channels.
+
+"Epoched data": CleanData are epoched to 900 msec (200 msec before onset)
+
+"ERP": ERP of Epoched_events plotted with a confidence interval. A mean of 200 msec is reduced from the total in each ERP.
+
+"PAC": Phase-amplitude couplings are computed in the range of 5-8 for low frequency and 30-50 for high frequency. Also, dynamic plots are a 200msec ERP window with 100msec overlap in two ranges 30-50 and 30-34.
