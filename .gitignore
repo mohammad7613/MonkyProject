@@ -184,7 +184,7 @@ octave-workspace
 *.set
 *.fdt
 *.fif
-*.mat
+
 *.mmap
 *.pkl
 ds
