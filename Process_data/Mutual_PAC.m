@@ -3,8 +3,9 @@ clear;
 close all;
 
 d = 'C:\Users\Fazeli\Desktop\Monkey\MonkeyData\Git\MonkyProject\Auditory\';
+d = 'C:\Users\Fazeli\Desktop\Monkey\MonkeyData\Git\MonkyProject\Auditory\2079-2022-06-22\S01\';
 
-eve=10;
+eve=20;
 
 mat_files = dir(fullfile(d,strcat('**/Epoch_event_',int2str(eve),'.mat')));
 for i = 1:length(mat_files)
