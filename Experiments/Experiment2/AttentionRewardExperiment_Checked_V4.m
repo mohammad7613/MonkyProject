@@ -530,13 +530,17 @@ try
                     if distanaceFromRewardDimention<AttentionSpan && startFocusFlag
                         startFocusFlag = false;
                         focusTimer = tic; 
-                    elseif (distanaceFromRewardDimention>=AttentionSpan) && ~startFocusFlag
+                    elseif (distanaceFromRewardDimention>=AttentionSpan) && ~startFocusFlag3D
                         accummulatedFocusTime = accummulatedFocusTime + toc(focusTimer);
                         startFocusFlag =true;   
                     end                    
                 elseif toc(stmTimer) >= duration.presentation 
                     isChanged = true;
                     rewardTimer  = tic;
+                    if ~startFocusFlag
+                      accummulatedFocusTime = accummulatedFocusTime + toc(focusTimer);
+                      startFocusFlag =true;                       
+                    end     
                     taskState = REWARD;
 
                 end
