@@ -1,6 +1,6 @@
 # Monkey
 
-This project is about calculating the cognitive measures of monkey behaviors during different task pardaimes 
+This project is about investigating the interrelation between attention and reward processing mechanism
 
 ## Getting started
 
