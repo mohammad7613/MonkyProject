@@ -1,6 +1,6 @@
 # Monkey
 
-This project is about investigating the interrelation between attention and reward processing mechanism
+This project is about investigating the interrelation between attention and reward-processing mechanisms.
 
 ## Getting started
 
